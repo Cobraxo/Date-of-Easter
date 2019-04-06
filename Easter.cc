@@ -54,8 +54,6 @@ int DateOfEaster(int year, std::string &month) {
     return P;           //We return on Easter day   
 }
 
-
-
 int main()
 {
     short int Year;
