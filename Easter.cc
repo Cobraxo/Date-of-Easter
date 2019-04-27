@@ -35,9 +35,9 @@ To calculate the date of Easter according to the year:
 
 int DateOfEaster(int year, std::string &month) {
 
-    short int B = 19 * (T) + 24;
+    short B = 19 * (T) + 24;
     unsigned char M = B % 30;
-    short int C = 2* (R) + 4*(S) + 6 * M + 5;
+    short C = 2* (R) + 4*(S) + 6 * M + 5;
     unsigned char N = C % 7;
     char P = M + N;
     
